@@ -5,7 +5,7 @@ clc;
 
 %% exp 1
 prepare();
-[xTr, yTr, xTe, yTe] = load_bci(PATH, @load_bci_ii_ia);
+[xTr, yTr, xTe, yTe] = load_bci(PATH, @load_bci_ii_ib);
 xTr_haar = extract_feature(xTr, 6, @wavedec, 4, 'haar');
 xTe_haar = extract_feature(xTe, 6, @wavedec, 4, 'haar');
 
