@@ -1,0 +1,3 @@
+% prepare.m
+PATH = 'E:\data\BCI Competition\';
+addpath( genpath('.') );
